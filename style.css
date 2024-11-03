@@ -1,0 +1,161 @@
+
+body {
+     background-color: black;
+     background-image: url("kkpsilogo.png");
+}
+
+#titleDiv{
+     margin: auto;
+     width: 500px;
+     font-family: monospace;
+}
+
+.blurb {
+     margin: auto;
+     margin-top: 60px;
+     margin-bottom: 20px;
+     width: 500px;
+     font-family: monospace;
+}
+
+#pageTitle {
+     color: blue;
+     font-size: 75px;
+
+     font-family: Times;
+     text-align: center;
+     
+}
+
+#titleBlurb {
+     color: white;
+     border-radius: 5px;
+     padding: 8px;
+     border: 2px solid white;
+     text-align: center;
+     font-size: 17px;
+}
+
+#bodyDiv{
+     margin-top: 50px;
+     border-radius: 20px;
+     width: 400px;
+     height: 780px;
+}
+
+#photos{
+     margin: auto;
+     margin-top: 5%;
+     width: 1300px;
+     height: 500px;
+     background-color: gold;
+     border-radius: 20px;
+     border: 2px solid blue;
+     overflow: hidden;
+}
+
+.container {
+     margin: auto;
+     width: 70px;
+     height: 350px;
+     display: flex;
+     justify-content: center;
+     gap: 20px;
+}
+
+.container img{
+
+     margin: auto;
+     margin-top: 50%;
+     width: 60%;
+     height: 120%;
+     object-fit: cover;
+     border-radius: 20px;
+     border: 5px solid white;
+     transition: all ease-in-out 0.7s;
+}
+
+.container img:hover{
+     width: 400%;
+     max-width: 400px;
+}
+
+#bpf:hover{
+     width: 450px;
+     max-width: 500px;
+}
+
+#crest:hover{
+     width: 450px;
+     max-width: 450px;
+}
+
+#star:hover{
+     width: 370px;
+     max-width: 370px;
+}
+
+#greenText:hover{
+     width: 550px;
+     max-width: 500px;
+}
+
+
+.containerRight{
+
+     margin: auto;
+     margin-top: 50px;
+     width: 800px;
+     height: 1700px;
+     border-radius: 10px;
+     overflow: hidden;
+     display: flex;
+     flex-direction: column;
+     background-color: gold;
+     border: 2px solid blue;
+     border-radius: 8px;
+}
+
+.containerRight img{
+
+     margin: auto;
+     margin-bottom: 5px;
+     margin-top: 5px;
+     width: 430px;
+     height: 200px;
+     object-fit: cover;
+     border-radius: 20px;
+     opacity: 0;
+     transition: opacity 1s ease;
+     transition: all ease-in-out 0.5s;
+     
+}
+
+.containerRight img:hover{
+
+     width: 430px;
+     height: 250px;
+     max-width: 430px;
+     max-height: 260px;
+     opacity: 1;
+     
+}
+
+.caption {
+     color: blue;
+     border-radius: 5px;
+     width: 450px;
+     margin: auto;
+     margin-top: 5px; 
+     margin-bottom: 5px;
+     padding: 8px;
+     border: 3px solid blue;
+     text-align: center;
+     font-size: 17px;
+     opacity: 0;
+     transition: opacity 1s ease;
+}
+
+.caption:hover{
+     opacity: 1;
+}
