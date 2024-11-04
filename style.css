@@ -159,3 +159,7 @@ body {
 .caption:hover{
      opacity: 1;
 }
+
+a {
+     color: gold;
+}
